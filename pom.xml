@@ -49,7 +49,7 @@
 		<calculationVersion>1.2</calculationVersion>
 		<jacksonVersion>1.5.0</jacksonVersion>
 		<quartzVersion>2.1.1</quartzVersion>
-		<poiVersion>3.12</poiVersion>
+		<poiVersion>4.1.1</poiVersion>
 		<groovyVersion>1.8.7</groovyVersion>
         <jodatimeVersion>2.3</jodatimeVersion>
         <handlebarsVersion>1.1.2</handlebarsVersion>
@@ -398,7 +398,7 @@
                             <vulas.reach.timeout>60</vulas.reach.timeout>
 
                             
-                            <vulas.report.exceptionExcludeBugs />
+                            <vulas.report.exceptionExcludeBugs/>
                             <vulas.report.reportDir>${project.build.directory}/vulas/report</vulas.report.reportDir>
                         </layeredConfiguration>
                     </configuration>
@@ -579,7 +579,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -600,7 +600,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
